@@ -5,7 +5,7 @@ import random
 
 class TIC_TAC_TOE_AI:
     def __init__(self, root):
-        # Basic Initialization
+        # Basic Initialization,nnbn k
         self.window = root
         self.make_canvas = Canvas(self.window, background="#141414", relief=RAISED, bd=3)
         self.make_canvas.pack(fill=BOTH, expand=1)
